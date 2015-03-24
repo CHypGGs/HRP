@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C20150BB19C6DA6D008AEDCE /* HRPAES.h in Copy Files */ = {isa = PBXBuildFile; fileRef = C20150BA19C6DA6D008AEDCE /* HRPAES.h */; };
+		C20150BD19C6DA6D008AEDCE /* HRPAES.m in Sources */ = {isa = PBXBuildFile; fileRef = C20150BC19C6DA6D008AEDCE /* HRPAES.m */; };
+		C20150D619C6DB97008AEDCE /* AES.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C20150D319C6DB97008AEDCE /* AES.a */; };
+		C239350219C81401001E8C0B /* HRPAESTask.h in Copy Files */ = {isa = PBXBuildFile; fileRef = C2A44E5419C7C9D90002B928 /* HRPAESTask.h */; };
+		C2A44E5619C7C9D90002B928 /* HRPAESTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A44E5519C7C9D90002B928 /* HRPAESTask.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C20150B519C6DA6D008AEDCE /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C239350219C81401001E8C0B /* HRPAESTask.h in Copy Files */,
+				C20150BB19C6DA6D008AEDCE /* HRPAES.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C20150B719C6DA6D008AEDCE /* libHRPAES.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHRPAES.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20150BA19C6DA6D008AEDCE /* HRPAES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRPAES.h; sourceTree = "<group>"; };
+		C20150BC19C6DA6D008AEDCE /* HRPAES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRPAES.m; sourceTree = "<group>"; };
+		C20150C219C6DA6E008AEDCE /* HRPAESTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRPAESTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20150C519C6DA6E008AEDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20150D319C6DB97008AEDCE /* AES.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AES.a; sourceTree = "<group>"; };
+		C20150D519C6DB97008AEDCE /* AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AES.h; sourceTree = "<group>"; };
+		C2A44E5419C7C9D90002B928 /* HRPAESTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRPAESTask.h; sourceTree = "<group>"; };
+		C2A44E5519C7C9D90002B928 /* HRPAESTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRPAESTask.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C20150B419C6DA6D008AEDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20150D619C6DB97008AEDCE /* AES.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20150BF19C6DA6E008AEDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C20150AE19C6DA6D008AEDCE = {
+			isa = PBXGroup;
+			children = (
+				C20150B919C6DA6D008AEDCE /* HRPAES */,
+				C20150CE19C6DA9C008AEDCE /* Supports */,
+				C20150C319C6DA6E008AEDCE /* HRPAESTests */,
+				C20150B819C6DA6D008AEDCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C20150B819C6DA6D008AEDCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C20150B719C6DA6D008AEDCE /* libHRPAES.a */,
+				C20150C219C6DA6E008AEDCE /* HRPAESTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C20150B919C6DA6D008AEDCE /* HRPAES */ = {
+			isa = PBXGroup;
+			children = (
+				C20150BA19C6DA6D008AEDCE /* HRPAES.h */,
+				C20150BC19C6DA6D008AEDCE /* HRPAES.m */,
+				C2A44E5419C7C9D90002B928 /* HRPAESTask.h */,
+				C2A44E5519C7C9D90002B928 /* HRPAESTask.m */,
+			);
+			path = HRPAES;
+			sourceTree = "<group>";
+		};
+		C20150C319C6DA6E008AEDCE /* HRPAESTests */ = {
+			isa = PBXGroup;
+			children = (
+				C20150C419C6DA6E008AEDCE /* Supporting Files */,
+			);
+			path = HRPAESTests;
+			sourceTree = "<group>";
+		};
+		C20150C419C6DA6E008AEDCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C20150C519C6DA6E008AEDCE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C20150CE19C6DA9C008AEDCE /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				C20150D319C6DB97008AEDCE /* AES.a */,
+				C20150D419C6DB97008AEDCE /* include */,
+			);
+			name = Supports;
+			path = HRPAES/Supports;
+			sourceTree = "<group>";
+		};
+		C20150D419C6DB97008AEDCE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C20150D519C6DB97008AEDCE /* AES.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C20150B619C6DA6D008AEDCE /* HRPAES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20150C819C6DA6E008AEDCE /* Build configuration list for PBXNativeTarget "HRPAES" */;
+			buildPhases = (
+				C20150B319C6DA6D008AEDCE /* Sources */,
+				C20150B419C6DA6D008AEDCE /* Frameworks */,
+				C20150B519C6DA6D008AEDCE /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRPAES;
+			productName = HRPAES;
+			productReference = C20150B719C6DA6D008AEDCE /* libHRPAES.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C20150C119C6DA6E008AEDCE /* HRPAESTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20150CB19C6DA6E008AEDCE /* Build configuration list for PBXNativeTarget "HRPAESTests" */;
+			buildPhases = (
+				C20150BE19C6DA6E008AEDCE /* Sources */,
+				C20150BF19C6DA6E008AEDCE /* Frameworks */,
+				C20150C019C6DA6E008AEDCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRPAESTests;
+			productName = HRPAESTests;
+			productReference = C20150C219C6DA6E008AEDCE /* HRPAESTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C20150AF19C6DA6D008AEDCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Hao Runpeng";
+				TargetAttributes = {
+					C20150B619C6DA6D008AEDCE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C20150C119C6DA6E008AEDCE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = C20150B219C6DA6D008AEDCE /* Build configuration list for PBXProject "HRPAES" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C20150AE19C6DA6D008AEDCE;
+			productRefGroup = C20150B819C6DA6D008AEDCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C20150B619C6DA6D008AEDCE /* HRPAES */,
+				C20150C119C6DA6E008AEDCE /* HRPAESTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C20150C019C6DA6E008AEDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C20150B319C6DA6D008AEDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A44E5619C7C9D90002B928 /* HRPAESTask.m in Sources */,
+				C20150BD19C6DA6D008AEDCE /* HRPAES.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20150BE19C6DA6E008AEDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C20150C619C6DA6E008AEDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C20150C719C6DA6E008AEDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C20150C919C6DA6E008AEDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HRPAES/Supports",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C20150CA19C6DA6E008AEDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HRPAES/Supports",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C20150CC19C6DA6E008AEDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HRPAESTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C20150CD19C6DA6E008AEDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HRPAESTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C20150B219C6DA6D008AEDCE /* Build configuration list for PBXProject "HRPAES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20150C619C6DA6E008AEDCE /* Debug */,
+				C20150C719C6DA6E008AEDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20150C819C6DA6E008AEDCE /* Build configuration list for PBXNativeTarget "HRPAES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20150C919C6DA6E008AEDCE /* Debug */,
+				C20150CA19C6DA6E008AEDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20150CB19C6DA6E008AEDCE /* Build configuration list for PBXNativeTarget "HRPAESTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20150CC19C6DA6E008AEDCE /* Debug */,
+				C20150CD19C6DA6E008AEDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C20150AF19C6DA6D008AEDCE /* Project object */;
+}
